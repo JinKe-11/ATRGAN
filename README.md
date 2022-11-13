@@ -16,3 +16,10 @@ The pytorch implemtation of the paper "Asymmetric Training in RealnessGAN".
 **to calculate the FID sorce**
 * make sure you save the generated images in the extra folder for calculation
 * run `python fid.py "/path/to/saved_generated_image/dir/" "/path/to/real_image/dir" -i "/path/to/Inception/dir" --gpu "0"` (you can also run `python fid_H.py "/path/to/saved_generated_image/dir/" "/path/to/real_image/dir" -i "/path/to/Inception/dir" --gpu "0"` with lower video memory.)
+
+# Implementation
+## Snapshots
+
+**CelebA-HQ 256x256 (FID = 20.47)**
+
+![](/images/CelebA_snapshot.png)
