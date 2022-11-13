@@ -22,4 +22,4 @@ The pytorch implemtation of the paper "Asymmetric Training in RealnessGAN".
 
 **CelebA-HQ 256x256 (FID = 20.47)**
 
-![](/images/CelebA_snapshot.png)
+![](/images/ATRGAN.png)
