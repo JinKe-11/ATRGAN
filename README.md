@@ -12,7 +12,7 @@ The pytorch implemtation of the paper "Asymmetric Training in RealnessGAN".
 **Usage**
 * run `python train.py` (please check the options.py carefully.)
 * notes: similar to RealnessGAN, the random seed for training input is 1 constantly. It is important to notice that, although the random seedes are same, but the trained result will still be various.
-* run `python train.py --num_outcomes=50 --image_size=256 --G_h_size=32 --D_h_size=32 --total_iters=350000` for CelebA-HQ-256x256 (https://github.com/tkarras/progressive_growing_of_gans), run `python train.py --num_outcomes=8 --image_size=64 --G_h_size=64 --D_h_size=64 --total_iters=400000` for CAT-64x64.
+* run `python train.py --num_outcomes=50 --image_size=256 --G_h_size=32 --D_h_size=32 --total_iters=350000` for CelebA-HQ-256x256 [CelebA-HQ](https://github.com/tkarras/progressive_growing_of_gans), run `python train.py --num_outcomes=8 --image_size=64 --G_h_size=64 --D_h_size=64 --total_iters=400000` for CAT-64x64.
 **to calculate the FID sorce**
 * make sure you save the generated images in the extra folder for calculation
 * run `python fid.py "/path/to/saved_generated_image/dir/" "/path/to/real_image/dir" -i "/path/to/Inception/dir" --gpu "0"` (you can also run `python fid_H.py "/path/to/saved_generated_image/dir/" "/path/to/real_image/dir" -i "/path/to/Inception/dir" --gpu "0"` with lower video memory.)
