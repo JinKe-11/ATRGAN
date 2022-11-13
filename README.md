@@ -1,2 +1,2 @@
 # ATRGAN
-Asymmetric Training in RealnessGAN
+Asymmetric Training in RealnessGAN. The details of training will be updated soon.
